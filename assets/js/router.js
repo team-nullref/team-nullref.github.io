@@ -54,9 +54,9 @@ async function loadPage(path = location.hash.slice(1) || "/") {
 
     // Titre spécial pour l'accueil
     if (path === "/") {
-        document.title = "Enio Aiello";
+        document.title = "Nullref";
     } else {
-        document.title = `Enio Aiello | ${route.title}`;
+        document.title = `Nullref | ${route.title}`;
     }
 
     try {
