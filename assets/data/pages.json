@@ -1,0 +1,7 @@
+{
+  "/": {
+    "title": "Accueil",
+    "view": "views/home.html",
+    "style": "assets/css/home.css"
+  }
+}
