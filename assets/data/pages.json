@@ -3,5 +3,20 @@
     "title": "Accueil",
     "view": "views/home.html",
     "style": "assets/css/home.css"
+  },
+  "/members": {
+    "title": "Membres",
+    "view": "views/members.html",
+    "style": "assets/css/members.css"
+  },
+  "/members/enio": {
+    "title": "Enio",
+    "view": "views/members/enio.html",
+    "style": "assets/css/member.css"
+  },
+  "/members/lumi": {
+    "title": "Lumi (Syxpi)",
+    "view": "views/members/lumi.html",
+    "style": "assets/css/member.css"
   }
 }
