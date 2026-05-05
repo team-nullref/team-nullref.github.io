@@ -1,0 +1,45 @@
+[
+    {
+        "profile-picture": "assets/images/members/enio.jpg",
+        "name": "Enio",
+        "role": "Fondateur",
+        "job": "Recherche de job",
+        "email": "contact@enioaiello.fr",
+        "links": {
+            "github": {
+                "url": "https://enioaiello.fr/#/github",
+                "icon": "github",
+                "title": "GitHub"
+            },
+            "linkedin": {
+                "url": "https://enioaiello.fr/#/linkedin",
+                "icon": "linkedin",
+                "title": "LinkedIn"
+            },
+            "website": {
+                "url": "https://enioaiello.fr/#/portfolio",
+                "icon": "bi-globe",
+                "title": "Portfolio"
+            }
+        }
+    },
+    {
+        "profile-picture": "assets/images/members/lumi.jpg",
+        "name": "Lumi (Syxpi)",
+        "role": "Co-fondatrice",
+        "job": "Recherche de job",
+        "email": "contact@syxpi.fr",
+        "links": {
+            "github": {
+                "url": "https://github.com/syxpi",
+                "icon": "github",
+                "title": "GitHub"
+            },
+            "website": {
+                "url": "https://syxpi.fr",
+                "icon": "bi-globe",
+                "title": "Portfolio"
+            }
+        }
+    }
+]
