@@ -47,23 +47,23 @@ function displayMembers() {
         });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    const topButton = document.querySelector('.top-button');
+// document.addEventListener('DOMContentLoaded', function () {
+//     const topButton = document.querySelector('.top-button');
 
-    window.addEventListener('scroll', function () {
-        // Afficher le bouton après 100px de défilement
-        if (window.scrollY > 100) {
-            topButton.style.display = 'flex';
-            // Délai pour permettre la transition
-            setTimeout(() => {
-                topButton.style.opacity = '1';
-            }, 10);
-        } else {
-            topButton.style.opacity = '0';
-            // Cacher le bouton après la transition
-            setTimeout(() => {
-                topButton.style.display = 'none';
-            }, 300);
-        }
-    });
-});
+//     window.addEventListener('scroll', function () {
+//         // Afficher le bouton après 100px de défilement
+//         if (window.scrollY > 100) {
+//             topButton.style.display = 'flex';
+//             // Délai pour permettre la transition
+//             setTimeout(() => {
+//                 topButton.style.opacity = '1';
+//             }, 10);
+//         } else {
+//             topButton.style.opacity = '0';
+//             // Cacher le bouton après la transition
+//             setTimeout(() => {
+//                 topButton.style.display = 'none';
+//             }, 300);
+//         }
+//     });
+// });
