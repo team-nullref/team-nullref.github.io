@@ -1,6 +1,6 @@
 [
     {
-        "profile-picture": "assets/images/members/enio.jpg",
+        "avatar": "assets/images/members/enio.jpg",
         "name": "Enio",
         "role": "Fondateur",
         "job": "Recherche de job",
@@ -24,7 +24,7 @@
         }
     },
     {
-        "profile-picture": "assets/images/members/lumi.jpg",
+        "avatar": "assets/images/members/lumi.jpg",
         "name": "Lumi (Syxpi)",
         "role": "Co-fondatrice",
         "job": "Recherche de job",
