@@ -31,15 +31,13 @@ function displayMembers() {
                 const memberCard = document.createElement('div');
                 memberCard.classList.add('member', 'col-lg-4', 'text-center', 'card', 'p-2', 'm-2');
                 memberCard.innerHTML = `
-                    <img class="avatar rounded mb-2" src="${member.avatar}" alt="${member.name}">
+                    <img class="avatar rounded my-2" src="${member.avatar}" alt="${member.name}">
                     <h2 class="fs-4">${member.name}</h2>
                     <h3 class="fs-5 fw-normal text-muted">${member.role} • ${member.job}</h3>
                 `;
 
-                member.addEventListener('click', () => {
-                    if (member.link) {
-                        window.open(member.link, '_blank');
-                    }
+                memberCard.addEventListener('click', () => {
+                    window.location.hash = "#/members/" + member.route;
                 });
 
                 container.forEach(c => c.appendChild(memberCard));
