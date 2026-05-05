@@ -15,7 +15,6 @@ function scrollToAnchor() {
 }
 
 function onViewLoaded(path) {
-    console.log(`Vue chargée : ${path}`);
     scrollToAnchor();
     if (path === '/') {
         // Pas de code pour l'instant
