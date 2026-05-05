@@ -5,6 +5,7 @@
         "role": "Fondateur",
         "job": "Recherche de job",
         "email": "contact@enioaiello.fr",
+        "route": "enio",
         "links": {
             "github": {
                 "url": "https://enioaiello.fr/#/github",
@@ -29,6 +30,7 @@
         "role": "Co-fondatrice",
         "job": "Recherche de job",
         "email": "contact@syxpi.fr",
+        "route": "lumi",
         "links": {
             "github": {
                 "url": "https://github.com/syxpi",
