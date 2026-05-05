@@ -1,4 +1,14 @@
-.logo {
-    width: 100px;
-    height: auto;
+.hero {
+    .logo {
+        width: 164px;
+        height: auto;
+    }
+}
+
+.members {
+    .member .avatar {
+        width: 128px;
+        height: auto;
+        margin: 0 auto;
+    }
 }
