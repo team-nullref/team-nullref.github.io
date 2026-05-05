@@ -1,3 +1,7 @@
+* {
+    transition: 200ms ease-in-out;
+}
+
 body {
     display: flex;
     flex-direction: column;
