@@ -6,6 +6,14 @@
 }
 
 .members {
+    .member {
+        cursor: pointer;
+    }
+
+    .member:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
     .member .avatar {
         width: 128px;
         height: auto;
